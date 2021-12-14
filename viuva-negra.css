@@ -14,14 +14,20 @@ header{
     z-index: 1;
 }
 
-.banner{
-    background-image: url("https://t.ctcdn.com.br/uYthLoJeRarOFM_Kf-Gtc7TYZKA=/1400x788/smart/i275768.jpeg");
-    background-attachment: fixed;
+.banner {
+    background-image: url("https://www.10wallpaper.com/wallpaper/2880x1800/2005/Black_Widow_2020_Movies_High_Quality_Photo_2880x1800.jpg");
+    background-attachment:fixed;
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
+    background-repeat:no-repeat;
 }
 
- ul img{
+ img{
+    text-align: center;
+    width: 10%;
+}
+
+ul img{
     padding-top: 10px;
     text-align: center;
     width: 10%;
@@ -54,11 +60,10 @@ li a:hover{
     transform: scale(1.2);
 }
 
-.texto{
+.texto {
     height: 100%;
-    width: 100vw;
-    display: flex;
-    padding: 9vh;
+    width: 100%;
+    padding: 60px;
     gap: 30px;
 }
 
@@ -74,14 +79,9 @@ li a:hover{
     height: 100%;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 footer {
     padding-top: 20px;
     background-color: black;
-    height: 200px;
     text-align: center;
     align-items: center;
     color: white;
@@ -91,4 +91,19 @@ img {
     padding-top: 5px;
     text-align: center;
     width: 3%;
+}
+
+.embed{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.embed iframe{
+    padding: 40px;
+    text-align: center;
+    position:absolute;
+    width: 90%;
+    height: 100%;
+    border: none;
 }
