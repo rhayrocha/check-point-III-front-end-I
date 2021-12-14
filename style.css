@@ -15,12 +15,15 @@ header {
     z-index: 1;
 }
 
+.body{
+    display: flex;
+}
+
 .banner {
     background-image: url("https://t.ctcdn.com.br/uYthLoJeRarOFM_Kf-Gtc7TYZKA=/1400x788/smart/i275768.jpeg");
     background-attachment: fixed;
     width: 100%;
     height: 100vh;
-    
 }
 
  img{
@@ -31,7 +34,7 @@ header {
 ul {
     height: 7vh;
     display: flex;
-    list-style:none;
+    list-style-type: none;
     gap: 30px;
     align-items:center;
     padding-left: 10px;
@@ -39,6 +42,7 @@ ul {
 
 a{
     color: white;
+    list-style-type: none;
 }
 
 .texto {
@@ -51,17 +55,16 @@ a{
 
 #itens{
     z-index: 10;
-    align-items:center;
     padding: 8vh;
     width: 95vw;
     height: 100vh;
 }
 
-/* footer {
+footer {
     display: flex;
     list-style:none;
     background-color:black;
     top: 0;
     width: 100vw;
-} */
-
+    height: 50vh;
+}
