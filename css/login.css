@@ -14,17 +14,9 @@ header{
     z-index: 1;
 }
 
-.banner{
-    background-image: url("https://t.ctcdn.com.br/uYthLoJeRarOFM_Kf-Gtc7TYZKA=/1400x788/smart/i275768.jpeg");
-    background-attachment: fixed;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-}
-
 main{
     padding: 10vh;
-    width: 50vw;
+    width: ;
     height: 100%;
     align-items: center;
 }

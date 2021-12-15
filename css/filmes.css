@@ -14,19 +14,6 @@ header{
     z-index: 1;
 }
 
-.banner {
-    background-image: url("https://estalagemnerd.com.br/wp-content/uploads/2021/11/Eternos-233-Estalagem-Nerd-CAPA.jpg");
-    background-attachment:fixed;
-    width: 100vw;
-    height: 80vh;
-    background-repeat:no-repeat;
-}
-
- img{
-    text-align: center;
-    width: 10%;
-}
-
 ul img{
     padding-top: 10px;
     text-align: center;
@@ -74,11 +61,6 @@ li a:hover{
     height: 100%;
 }
 
-.rodape{
-    width: 100%;
-    height: 100%;
-}
-
 footer {
     padding-top: 20px;
     background-color: black;
@@ -87,7 +69,7 @@ footer {
     color: white;
 }
 
-img {
+footer img {
     padding-top: 5px;
     text-align: center;
     width: 3%;
@@ -106,4 +88,8 @@ img {
     width: 90%;
     height: 100%;
     border: none;
+}
+
+.banner img{
+    padding-top: 7vh;
 }
