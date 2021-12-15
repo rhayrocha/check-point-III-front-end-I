@@ -76,9 +76,6 @@ li a:hover{
     height: 100%;
 }
 
-html {
-    scroll-behavior: smooth;
-}
 
 footer {
     padding-top: 20px;
@@ -99,4 +96,15 @@ img {
     position: absolute;
    left: 10%;
    bottom: 10%;
+}
+
+main p{
+    color: white;
+    position: absolute;
+   left: 10%;
+   bottom: 15%;
+}
+
+html {
+    scroll-behavior: smooth;
 }
